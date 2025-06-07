@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+svg {
+    fill: white;
+}
+
+.layout-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+
+#sidebar {
+    display: grid;
+    background-color: #1E293B;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    grid-template-rows: 5% 25% 25%;
+    gap: 50px;
+    padding: 25px 0px 0px 35px;
+    min-width: 150px;
+    color: #CBD5E1;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.dashboard-header img {
+    height: 50px;
+}
+
+.nav-icon {
+    height: 35px;
+}
+
+#sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #CBD5E1;
+    font-size: 28px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.topbar {
+    background-color: #3B82F6;;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-image img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-greeting {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 15px 0px 0px 25px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    width: 80%;
+    border-radius: 15px;
+    border: none;
+    background-color: yellow;
+    height: 100%;
+    padding: 0px 0px 0px 10px;
+}
+
+.user-row img {
+    height: 35px;
+}
+
+#small-profile-photo {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.user-row {
+    display: flex;
+    margin: 15px 0px 0px 0px;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
